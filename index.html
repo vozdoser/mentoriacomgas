@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=1336">
+<title>Metodologia da Mentoria Comunicação com Propósito · Felipe Figueiredo · Voz do Ser</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Karla:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --dark:#193c3a;
+    --tiffany:#00d0ca;
+    --cyan:#4bfff6;
+    --mist:#e1f4f2;
+    --ink:#1c2b2a;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;border-radius:0 !important;}
+  html{-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;}
+  html,body{background:#0e1f1e;}
+  body{font-family:'Karla',Arial,sans-serif;color:var(--ink);}
+  h1,h2,h3,.serif{font-family:'Fraunces',Georgia,serif;font-weight:500;}
+  .page{width:1280px;height:720px;position:relative;overflow:hidden;background:#ffffff;}
+  @media screen{.page{margin:28px auto;box-shadow:0 8px 40px rgba(0,0,0,.45);}}
+  @media print{
+    html,body{background:#fff;}
+    .page{margin:0;box-shadow:none;page-break-after:always;}
+    .page:last-child{page-break-after:auto;}
+  }
+  @page{size:1280px 720px;margin:0;}
+
+  .wm{position:absolute;top:34px;right:44px;height:52px;opacity:.4;z-index:9;}
+  .kicker{font-weight:700;font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--tiffany);margin-bottom:14px;}
+  .pagenum{position:absolute;bottom:30px;right:44px;font-size:12px;letter-spacing:.2em;color:var(--dark);opacity:.45;font-weight:600;}
+  .footer-tag{position:absolute;bottom:30px;left:64px;font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--dark);opacity:.45;font-weight:600;}
+
+  .cover{background:var(--dark);color:#fff;}
+  .cover .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.26;filter:saturate(.7);}
+  .cover .shade{position:absolute;inset:0;background:linear-gradient(120deg,rgba(25,60,58,.93) 0%,rgba(25,60,58,.58) 60%,rgba(25,60,58,.88) 100%);}
+  .cover .inner{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:space-between;padding:54px 72px 46px;}
+  .cover .logo{height:72px;width:auto;align-self:flex-start;}
+  .cover h1{font-size:56px;line-height:1.08;font-weight:500;color:#fff;}
+  .cover h1 em{font-style:italic;color:var(--cyan);}
+  .cover .sub{margin-top:18px;font-size:20px;font-weight:300;color:var(--mist);max-width:760px;line-height:1.55;}
+  .cover .baseline{display:flex;justify-content:space-between;align-items:flex-end;border-top:1px solid rgba(225,244,242,.35);padding-top:20px;}
+  .cover .baseline span{font-size:14px;letter-spacing:.22em;text-transform:uppercase;color:var(--mist);font-weight:600;}
+
+  h2.title{font-size:40px;line-height:1.14;color:var(--dark);margin-bottom:18px;}
+  h2.title em{font-style:italic;color:var(--tiffany);}
+  p.lead{font-size:17px;line-height:1.62;color:var(--ink);margin-bottom:12px;}
+  p.lead b{font-weight:700;color:var(--dark);}
+
+  .bio p{font-size:14.2px;line-height:1.55;margin-bottom:8px;}
+  .cred{list-style:none;margin-top:8px;}
+  .cred li{font-size:13.5px;line-height:1.5;color:var(--ink);padding-left:14px;position:relative;margin-bottom:4px;}
+  .cred li:before{content:"·";position:absolute;left:0;color:var(--tiffany);font-weight:700;}
+
+  .sessao{border-top:1px solid rgba(25,60,58,.18);padding-top:14px;}
+  .sessao .data{display:inline-block;background:var(--dark);color:#fff;font-size:12px;letter-spacing:.16em;font-weight:700;padding:5px 12px;margin-bottom:10px;}
+  .sessao h3{font-size:23px;color:var(--dark);line-height:1.25;margin-bottom:8px;}
+  .sessao p{font-size:14px;line-height:1.55;margin-bottom:10px;}
+  .sessao ul{list-style:none;}
+  .sessao li{font-size:13.6px;line-height:1.48;padding-left:14px;position:relative;margin-bottom:5px;}
+  .sessao li:before{content:"·";position:absolute;left:0;color:var(--tiffany);font-weight:700;}
+</style>
+</head>
+<body>
+
+<!-- ============ 1 · CAPA ============ -->
+<section class="page cover">
+  <img class="bg" src="assets/palestrante-explicando-o-caminho-do-autoconhecimento-no-slide.jpg" alt="">
+  <div class="shade"></div>
+  <div class="inner">
+    <img class="logo" src="assets/logo-vozdoser-bco.png" alt="Voz do Ser">
+    <div>
+      <div class="kicker" style="color:var(--cyan);">Demonstrativo de metodologia</div>
+      <h1>Mentoria Comunicação<br>com <em>Propósito</em></h1>
+      <p class="sub">Como se estrutura a jornada: quem conduz, o que acontece em cada sessão e o que é trabalhado do diagnóstico à autonomia comunicativa.</p>
+    </div>
+    <div class="baseline">
+      <span>Felipe Figueiredo · CEO da Comgás</span>
+      <span>Instituto Voz do Ser</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 2 · A METODOLOGIA ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="display:flex;height:100%;">
+    <div style="flex:1.12;padding:58px 52px 58px 64px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="kicker">A metodologia</div>
+      <h2 class="title">Comunicação<br>com <em>Propósito</em></h2>
+      <p class="lead">Metodologia registrada em cartório, desenvolvida pelo Instituto Voz do Ser e aplicada hoje na formação de terapeutas, em atendimentos clínicos, treinamentos de liderança, media training e programas corporativos para grandes empresas.</p>
+      <p class="lead">Ela parte de uma premissa simples: a comunicação de uma pessoa é o retrato do que ela pensa, sente e acredita. Por isso, o trabalho não fica na técnica de apresentação. Integra <b>expressividade</b>, <b>inteligência emocional e relacional</b> e <b>mentalidade</b>, para que o que é dito, o modo como é dito e a intenção por trás cheguem alinhados a quem escuta.</p>
+      <p class="lead" style="border-left:3px solid var(--tiffany);padding-left:18px;color:var(--dark);">Na mentoria individual, essa metodologia é aplicada sobre o contexto real do executivo: suas situações de exposição, seus interlocutores e os desafios concretos da sua função.</p>
+    </div>
+    <div style="flex:.88;position:relative;">
+      <img src="assets/palestrantes-explicando-experiencia-comunicativa-pov-participante.jpg" alt="" style="width:100%;height:100%;object-fit:cover;">
+    </div>
+  </div>
+  <div class="pagenum">02</div>
+</section>
+
+<!-- ============ 3 · QUEM CONDUZ ============ -->
+<section class="page" style="background:var(--dark);">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="padding:44px 64px 0;">
+    <div class="kicker" style="color:var(--cyan);">Quem conduz</div>
+    <h2 class="title" style="color:#fff;font-size:34px;margin-bottom:18px;">Gabriel Hatt e <em style="color:var(--cyan);">Luana Curti</em></h2>
+    <div style="display:flex;gap:34px;align-items:stretch;">
+      <div style="flex:1;display:flex;gap:20px;">
+        <div style="width:205px;flex:none;align-self:stretch;background:linear-gradient(180deg,rgba(0,208,202,.18) 0%,rgba(225,244,242,.06) 100%);display:flex;align-items:flex-end;justify-content:center;overflow:hidden;"><img src="assets/gabriel-painel.png" alt="Gabriel Hatt" style="width:100%;height:100%;object-fit:contain;object-position:center bottom;display:block;"></div>
+        <div class="bio" style="color:var(--mist);">
+          <div class="serif" style="font-size:22px;color:#fff;line-height:1.2;margin-bottom:4px;">Gabriel Hatt</div>
+          <div style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);font-weight:700;margin-bottom:9px;">Cofundador e CEO do Voz do Ser</div>
+          <p>Sua trajetória começa no palco. Ator, cantor e diretor, conduziu dezenas de produções teatrais e preparou comunicadores e performers antes de se aprofundar no estudo da mente humana, do autoconhecimento e da espiritualidade.</p>
+          <p>Foi nesse cruzamento que descobriu que comunicação, mudança de mentalidade, relacionamentos e realização são, no fim, uma coisa só. Dessa vontade de tornar o autoconhecimento prático nasceu o Voz do Ser, instituto com três unidades de negócio: Escola, Clínica e Corporativo.</p>
+          <p>É especialista em autoconhecimento na prática, saúde mental, inteligência emocional e relacional, comunicação e performance, liderança com propósito e desenvolvimento de times.</p>
+        </div>
+      </div>
+      <div style="flex:1;display:flex;gap:20px;">
+        <div style="width:205px;flex:none;align-self:stretch;background:linear-gradient(180deg,rgba(0,208,202,.18) 0%,rgba(225,244,242,.06) 100%);display:flex;align-items:flex-end;justify-content:center;overflow:hidden;"><img src="assets/luana-painel.png" alt="Luana Curti" style="width:100%;height:100%;object-fit:contain;object-position:center bottom;display:block;"></div>
+        <div class="bio" style="color:var(--mist);">
+          <div class="serif" style="font-size:22px;color:#fff;line-height:1.2;margin-bottom:4px;">Luana Curti</div>
+          <div style="font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);font-weight:700;margin-bottom:9px;">Cofundadora e CPO do Voz do Ser</div>
+          <p>Fonoaudióloga pela Universidade Federal de São Paulo (UNIFESP), com especialização em Voz pelo Centro de Estudos da Voz (CEV) e Mestrado em Artes Cênicas pela Universidade Estadual Paulista (UNESP).</p>
+          <p>Formada em Gestão Estratégica de Saúde Mental e Bem-Estar no Trabalho pelo Mind Institute. Terapeuta da Comunicação e fonoaudióloga especialista em voz.</p>
+          <p>Cofundadora do Instituto de Comunicação com Propósito, Autoconhecimento na Prática e Mudança de Mentalidade, que atua na formação de terapeutas, em atendimentos clínicos individuais e em programas corporativos de liderança e relacionamento de equipe.</p>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:14px;line-height:1.55;color:var(--mist);opacity:.9;margin-top:18px;border-top:1px solid rgba(225,244,242,.3);padding-top:14px;">Juntos, Gabriel e Luana criaram a metodologia Comunicação com Propósito e conduzem as quatro sessões da mentoria.</p>
+  </div>
+  <div class="pagenum" style="color:var(--mist);">03</div>
+</section>
+
+<!-- ============ 4 · KELLEN ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="display:flex;height:100%;">
+    <div style="flex:none;width:392px;padding:58px 0 58px 64px;display:flex;flex-direction:column;justify-content:center;">
+      <img src="assets/kellen-rodrigues.webp" alt="Kellen Rodrigues" style="width:352px;height:285px;object-fit:cover;display:block;">
+    </div>
+    <div style="flex:1;padding:58px 64px 58px 44px;display:flex;flex-direction:column;justify-content:center;">
+      <div class="kicker">Participação de especialista · Sessão 4</div>
+      <h2 class="title">Kellen <em>Rodrigues</em></h2>
+      <div style="font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--dark);opacity:.6;font-weight:700;margin-top:-8px;margin-bottom:18px;">Jornalista, atriz e Terapeuta da Comunicação</div>
+      <p class="lead" style="font-size:16px;">Jornalista formada pela Universidade do Sul de Santa Catarina em 2006, com passagens por redações do Grupo Abril, Editora Caras e Editora Globo.</p>
+      <p class="lead" style="font-size:16px;">É terapeuta da comunicação e professora no Instituto Voz do Ser, e atriz, formada em Teatro com especialização em Dublagem pela Art Way.</p>
+      <p class="lead" style="border-left:3px solid var(--tiffany);padding-left:18px;color:var(--dark);font-size:16px;">Na última sessão, Kellen conduz o pinga-fogo: uma simulação real de entrevista, com o olhar de quem passou anos dos dois lados da redação, sobre como as mensagens são recebidas, interpretadas e podem repercutir externamente.</p>
+    </div>
+
+  </div>
+  <div class="pagenum">04</div>
+</section>
+
+<!-- ============ 5 · VISÃO GERAL DA JORNADA ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="padding:52px 64px 0;">
+    <div class="kicker">Visão geral</div>
+    <h2 class="title" style="margin-bottom:10px;">Quatro sessões, <em>do diagnóstico à autonomia</em></h2>
+    <p style="font-size:16px;line-height:1.6;max-width:1080px;margin-bottom:24px;">Todas as sessões acontecem das 10h às 12h, conduzidas por Gabriel Hatt e Luana Curti.</p>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:18px;">
+      <div style="border-top:3px solid var(--tiffany);padding-top:16px;">
+        <div class="serif" style="font-size:30px;color:var(--tiffany);line-height:1;">05/10</div>
+        <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dark);opacity:.6;font-weight:700;margin:10px 0 8px;">Sessão 1</div>
+        <div class="serif" style="font-size:22px;color:var(--dark);line-height:1.25;margin-bottom:8px;">Terapia da Comunicação</div>
+        <p style="font-size:14px;line-height:1.5;">Diagnóstico e aprofundamento: quem é Felipe como comunicador.</p>
+      </div>
+      <div style="border-top:3px solid var(--tiffany);padding-top:16px;">
+        <div class="serif" style="font-size:30px;color:var(--tiffany);line-height:1;">13/10</div>
+        <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dark);opacity:.6;font-weight:700;margin:10px 0 8px;">Sessão 2</div>
+        <div class="serif" style="font-size:22px;color:var(--dark);line-height:1.25;margin-bottom:8px;">Tríade da Experiência Comunicativa</div>
+        <p style="font-size:14px;line-height:1.5;">O que é visto, o que é ouvido e o que é sentido por quem recebe a mensagem.</p>
+      </div>
+      <div style="border-top:3px solid var(--tiffany);padding-top:16px;">
+        <div class="serif" style="font-size:30px;color:var(--tiffany);line-height:1;">22/10</div>
+        <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--dark);opacity:.6;font-weight:700;margin:10px 0 8px;">Sessão 3</div>
+        <div class="serif" style="font-size:22px;color:var(--dark);line-height:1.25;margin-bottom:8px;">Inteligência Relacional</div>
+        <p style="font-size:14px;line-height:1.5;">Autenticidade preservada e comunicação adaptada a cada interlocutor.</p>
+      </div>
+      <div style="border-top:3px solid var(--cyan);padding-top:16px;background:var(--dark);margin-top:-16px;padding:16px 20px 20px;">
+        <div class="serif" style="font-size:30px;color:var(--cyan);line-height:1;">19/11</div>
+        <div style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--mist);opacity:.8;font-weight:700;margin:10px 0 8px;">Sessão 4</div>
+        <div class="serif" style="font-size:22px;color:#fff;line-height:1.25;margin-bottom:8px;">Comunicação sob pressão e Autonomia</div>
+        <p style="font-size:14px;line-height:1.5;color:var(--mist);">Entrevista real com jornalista e plano de autonomia comunicativa.</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">Metodologia · Comunicação com Propósito</div>
+  <div class="pagenum">05</div>
+</section>
+
+<!-- ============ 6 · SESSÕES 1 E 2 ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="padding:46px 64px 0;">
+    <div class="kicker">Sessões 1 e 2</div>
+    <h2 class="title" style="margin-bottom:20px;">Diagnóstico e <em>expressividade</em></h2>
+    <div style="display:flex;gap:44px;">
+      <div class="sessao" style="flex:1;">
+        <div class="data">05/10 · 10h às 12h</div>
+        <h3 class="serif">Sessão 1 · Terapia da Comunicação</h3>
+        <p>Encontro de diagnóstico e aprofundamento para compreender Felipe como comunicador e identificar os aspectos emocionais, comportamentais e expressivos que influenciam sua comunicação.</p>
+        <ul>
+          <li>Avaliação e mapeamento da comunicação</li>
+          <li>Avaliação da expressividade corporal, verbal e vocal</li>
+          <li>Diagnóstico do Perfil de Comunicação</li>
+          <li>Identificação de questões emocionais que aparecem na comunicação e na expressividade</li>
+          <li>Feedbacks de mentalidade e percepção sobre o impacto da própria comunicação</li>
+          <li>Treinamento mental para ampliação de consciência e repertório</li>
+          <li>Treinamento prático a partir dos pontos identificados no diagnóstico</li>
+        </ul>
+      </div>
+      <div class="sessao" style="flex:1;">
+        <div class="data">13/10 · 10h às 12h</div>
+        <h3 class="serif">Sessão 2 · Tríade da Experiência Comunicativa</h3>
+        <p>Aprofundamento da expressividade e da presença comunicativa a partir da Tríade da Experiência Comunicativa: o que é visto, o que é ouvido e o que é sentido por quem recebe a mensagem.</p>
+        <ul>
+          <li>Avaliação técnica da voz</li>
+          <li>Avaliação da expressividade verbal e não verbal</li>
+          <li>Técnicas de aquecimento e preparação para situações de comunicação</li>
+          <li>Estratégias para trabalhar expressividade vocal e corporal</li>
+          <li>Integração entre voz, corpo, mensagem e intenção</li>
+          <li>Simulações e feedbacks de entrevista recente</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">Metodologia · Comunicação com Propósito</div>
+  <div class="pagenum">06</div>
+</section>
+
+<!-- ============ 7 · SESSÕES 3 E 4 ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="padding:46px 64px 0;">
+    <div class="kicker">Sessões 3 e 4</div>
+    <h2 class="title" style="margin-bottom:20px;">Relação e <em>pressão real</em></h2>
+    <div style="display:flex;gap:44px;">
+      <div class="sessao" style="flex:1;">
+        <div class="data">22/10 · 10h às 12h</div>
+        <h3 class="serif">Sessão 3 · Inteligência Relacional</h3>
+        <p>Desenvolvimento de estratégias para que Felipe consiga preservar sua autenticidade e, ao mesmo tempo, adaptar sua comunicação às necessidades de cada interlocutor, público e contexto.</p>
+        <ul>
+          <li>Estratégias de Inteligência Relacional</li>
+          <li>Como se comunicar com diferentes perfis de comunicação</li>
+          <li>Regulação emocional diante de situações de pressão e desconforto</li>
+          <li>Estratégias para estabelecer conexão e credibilidade</li>
+          <li>Construção e adequação do teor emocional do discurso</li>
+          <li>Adaptação da linguagem para diferentes públicos e contextos</li>
+          <li>Práticas de comunicação para situações de maior complexidade e pressão</li>
+        </ul>
+      </div>
+      <div class="sessao" style="flex:1;border-top:3px solid var(--tiffany);">
+        <div class="data">19/11 · 10h às 12h</div>
+        <h3 class="serif">Sessão 4 · Comunicação sob pressão e Autonomia</h3>
+        <p style="margin-bottom:6px;">Com participação de <b style="color:var(--dark);">Kellen Rodrigues</b>, jornalista e Terapeuta da Comunicação.</p>
+        <p>Encontro final dedicado à aplicação prática dos recursos desenvolvidos ao longo da mentoria, colocando Felipe diante de uma experiência real de entrevista e pressão comunicativa.</p>
+        <ul>
+          <li>Pinga-fogo com jornalista: simulação de entrevista com perguntas e situações desafiadoras</li>
+          <li>Observação da comunicação verbal, vocal, corporal e emocional durante a entrevista</li>
+          <li>Feedbacks em tempo real de Gabriel Hatt, Luana Curti e Kellen Rodrigues</li>
+          <li>Olhar jornalístico sobre como as mensagens são recebidas, interpretadas e podem repercutir externamente</li>
+          <li>Identificação dos avanços e dos pontos que ainda precisam de atenção</li>
+          <li>Consolidação dos principais aprendizados da jornada</li>
+          <li>Plano de autonomia comunicativa para os diferentes contextos profissionais</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-tag">Metodologia · Comunicação com Propósito</div>
+  <div class="pagenum">07</div>
+</section>
+
+<!-- ============ 8 · EMPRESAS QUE ATENDEMOS ============ -->
+<section class="page">
+  <img class="wm" src="assets/marca-dagua.png" alt="">
+  <div style="padding:56px 72px 0;">
+    <div class="kicker">Empresas que atendemos</div>
+    <h2 class="title" style="margin-bottom:20px;">Times e lideranças que já viveram<br>a <em>Comunicação com Propósito</em></h2>
+    <div style="display:grid;grid-template-columns:repeat(9,1fr);gap:12px 14px;align-items:center;">
+      <img src="assets/voz-logos06.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos04.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos11.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos15.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos16.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos18.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos21.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos23.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos24.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos32.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos35.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos36.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos38.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos39.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos41.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos42.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos44.png" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/logo-bancodobrasil.png" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/logo-buddhaspa.png" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos02.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos03.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos05.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos07.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos08.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos09.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos10.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos12.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos13.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos14.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos17.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos19.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos20.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos22.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos25.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos26.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos27.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos28.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos29.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos30.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos31.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos33.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos34.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos37.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos40.webp" style="width:100%;height:50px;object-fit:contain;">
+      <img src="assets/voz-logos43.webp" style="width:100%;height:50px;object-fit:contain;">
+    </div>
+    <div style="display:flex;border-top:1px solid rgba(25,60,58,.18);border-bottom:1px solid rgba(25,60,58,.18);margin-top:22px;">
+      <div style="flex:1;padding:18px 20px;"><div class="serif" style="font-size:38px;color:var(--dark);line-height:1;">+50</div><div style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--tiffany);font-weight:700;margin-top:8px;">Empresas atendidas</div></div>
+      <div style="flex:1;padding:18px 20px;border-left:1px solid rgba(25,60,58,.18);"><div class="serif" style="font-size:38px;color:var(--dark);line-height:1;">+180</div><div style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--tiffany);font-weight:700;margin-top:8px;">Alunos formados na metodologia</div></div>
+      <div style="flex:1;padding:18px 20px;border-left:1px solid rgba(25,60,58,.18);"><div class="serif" style="font-size:38px;color:var(--dark);line-height:1;">+450</div><div style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--tiffany);font-weight:700;margin-top:8px;">Treinamentos</div></div>
+      <div style="flex:1;padding:18px 20px;border-left:1px solid rgba(25,60,58,.18);"><div class="serif" style="font-size:38px;color:var(--dark);line-height:1;">+10000</div><div style="font-size:11.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--tiffany);font-weight:700;margin-top:8px;">Pessoas impactadas</div></div>
+    </div>
+  </div>
+  <div class="footer-tag">Metodologia · Comunicação com Propósito</div>
+  <div class="pagenum">08</div>
+</section>
+
+</body>
+</html>
